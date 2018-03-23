@@ -1,6 +1,7 @@
 syntax enable
 set encoding=utf-8
 set hlsearch
+colorscheme slate
 set smartindent
 set nu
 set ts=4
@@ -28,7 +29,8 @@ Plugin 'tell-k/vim-autopep8'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 " https://vimawesome.com/plugin/markdown-syntax
 Plugin 'godlygeek/tabular'
-Plugin 'chriskempson/tomorrow-theme'
+Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim'}
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'severin-lemaignan/vim-minimap'
 
@@ -57,6 +59,7 @@ Plugin 'raimondi/delimitmate'
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
+Plugin 'tomasr/molokai'
 " All of your Plugins must be added before the following line
 Plugin 'Valloric/YouCompleteMe'
 call vundle#end()            " required
@@ -104,6 +107,7 @@ call NERDTreeHighlightFile('php', 'Magenta', 'none', '#ff00ff', '#151515')
 
 " Trigger configuration. Do not use <tab> if you use
 " https://github.com/Valloric/YouCompleteMe.
+" 代码片段设置
 let g:UltiSnipsExpandTrigger="<c-t>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
@@ -115,12 +119,14 @@ nnoremap <leader>h :YcmCompleter GoToInclude<CR>
 nnoremap <leader>d :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>c :YcmCompleter GoToDeclaration<CR>
 
+" minimap 设置
 let g:minimap_highlight='Visual'
 let g:minimap_show='<leader>ms'
 let g:minimap_update='<leader>mu'
 let g:minimap_close='<leader>gc'
 let g:minimap_toggle='<leader>gt'
 
+" 记录文件状态变化
 let g:NERDTreeIndicatorMapCustom = {
     \ "Modified"  : "✹",
     \ "Staged"    : "✚",
