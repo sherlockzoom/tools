@@ -7,6 +7,11 @@ https://github.com/sherlockzoom/useful-tools/blob/master/ubuntu16.04_vimrc
 
 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
+# install vim-plug
+
+`curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
+
 # install YouCompleteMe
 
 https://github.com/valloric/youcompleteme#ubuntu-linux-x64
