@@ -3,7 +3,7 @@ set encoding=utf-8
 set hlsearch
 set smartindent
 set nu
-colorscheme molokai
+"colorscheme molokai
 set ts=4
 set autoindent
 set expandtab
@@ -31,6 +31,7 @@ Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 Plug 'kana/vim-textobj-user'
 Plug 'tpope/vim-fugitive'
+Plug 'w0rp/ale'
 Plug 'kana/vim-textobj-indent'
 Plug 'kana/vim-textobj-syntax'
 Plug 'octol/vim-cpp-enhanced-highlight'
@@ -172,6 +173,13 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline_theme='simple'
 let g:airline_powerline_fonts = 1
+" Set this. Airline will handle the rest.
+let g:airline#extensions#ale#enabled = 1
+let g:ale_echo_msg_error_str = 'E'
+let g:ale_echo_msg_warning_str = 'W'
+let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+" Enable completion where available.
+let g:ale_completion_enabled = 1
 
 " molokia 
 let g:molokai_original = 1
