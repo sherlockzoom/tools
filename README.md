@@ -1,7 +1,11 @@
 # vimrc
 my vimrc
 
-https://github.com/sherlockzoom/useful-tools/blob/master/ubuntu16.04_vimrc
+[vim/vimrc-with-vim-plug](vim/vimrc-with-vim-plug)
+
+# git branch bash 
+
+[git/git-branch-bash.md](git/git-branch-bash.md)
 
 # install Vundel
 
@@ -9,8 +13,7 @@ https://github.com/sherlockzoom/useful-tools/blob/master/ubuntu16.04_vimrc
 
 # install vim-plug
 
-`curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
+`curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
 
 # install YouCompleteMe
 
