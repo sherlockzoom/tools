@@ -3,6 +3,10 @@ my vimrc
 
 [vim/vimrc-with-vim-plug](vim/vimrc-with-vim-plug)
 
+# ubuntu18.04 + vlc3
+
+https://hub.docker.com/r/zylhub/ubuntu18.04/
+
 # git branch bash 
 
 [git/git-branch-bash.md](git/git-branch-bash.md)
