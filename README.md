@@ -39,3 +39,7 @@ https://github.com/sherlockzoom/useful-tools/blob/master/nvidia-docker-ubuntu16.
 # aliyun ubuntu16.04 sources
 
 https://github.com/sherlockzoom/useful-tools/blob/master/ubuntu16.04-aliyun-sources-list
+
+# ubuntu 安装中文包
+
+`apt-get install language-pack-zh*`
