@@ -3,6 +3,14 @@ my vimrc
 
 [vim/vimrc-with-vim-plug](vim/vimrc-with-vim-plug)
 
+# tuna提供的一键换源
+
+```
+wget https://tuna.moe/oh-my-tuna/oh-my-tuna.py
+python oh-my-tuna.py
+```
+
+
 # ubuntu18.04 + vlc3
 
 https://hub.docker.com/r/zylhub/ubuntu18.04/
