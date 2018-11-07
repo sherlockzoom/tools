@@ -8,6 +8,7 @@
 
 `docker build -t zylhub/detectron-cn:cuda9-cudnn7 .`
 
++ 添加中文支持
 + 添加ubuntu16.04阿里源
 + 添加pip 阿里源
 + 使用gitee替换git库
