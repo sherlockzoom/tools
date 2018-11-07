@@ -1,5 +1,11 @@
 ## detectron docker image build
 
+相关文件：
+
+1. dockerfile: https://github.com/zylhub/misc/blob/master/docker/dockerfile-tectron-cn
+2. pip.conf: https://github.com/zylhub/misc/blob/master/docker/pip.conf
+3. ubuntu16.04-aliyun-sources-list: https://github.com/zylhub/misc/blob/master/docker/ubuntu16.04-aliyun-sources-list
+
 `docker build -t zylhub/detectron-cn:cuda9-cudnn7 .`
 
 + 添加ubuntu16.04阿里源
