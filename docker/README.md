@@ -1,3 +1,7 @@
+## docker images
+
+https://hub.docker.com/r/zylhub
+
 ## detectron docker image build
 
 相关文件：
