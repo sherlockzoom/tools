@@ -1,6 +1,5 @@
 # docker
-
-(docker)[/docker]
+[docker](/docker)
 
 # vimrc
 my vimrc
