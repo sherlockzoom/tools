@@ -10,7 +10,7 @@ install plug-vim
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ``` 
-[vim/vimrc-with-vim-plug](vim/vimrc-with-vim-plug)
+[vim/vimrc-with-vim-plug](docker/vim/vimrc_plug)
 
 # tuna提供的一键换源
 
