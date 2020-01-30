@@ -1,5 +1,8 @@
+# python-misc
++ [python-misc](/python-misc)  : python工具函数
+
 # docker
-[docker](/docker)
++ [docker](/docker)
 
 # vimrc
 my vimrc
@@ -27,6 +30,8 @@ https://hub.docker.com/r/zylhub/ubuntu18.04/
 # git branch bash 
 
 [git/git-branch-bash.md](git/git-branch-bash.md)
+
+建议直接使用fishshell
 
 # install Vundel
 
